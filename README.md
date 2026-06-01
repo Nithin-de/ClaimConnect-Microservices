@@ -2,7 +2,11 @@
 
 ## Overview
 
-ClaimConnect is a microservices-based insurance claim processing system developed using Spring Boot and Spring Cloud. The application streamlines the claim approval process between hospitals, patients, and insurance companies through secure and scalable backend services.
+ClaimConnect is a microservices-based insurance claim processing system developed using Spring Boot and Spring Cloud. The application streamlines the insurance claim lifecycle between hospitals, patients, and insurance companies through secure, scalable, and distributed backend services.
+
+## Project Status
+
+Completed
 
 ## Architecture
 
@@ -69,16 +73,17 @@ Processes and approves eligible insurance claims.
 ### Claim Request Service
 Acts as the central service for claim lifecycle management.
 
-## Learning Outcomes
+## Key Implementations
 
-- Spring Boot Microservices
-- Service Discovery
-- API Gateway Routing
-- Centralized Configuration Management
-- Secure REST API Development
-- Inter-Service Communication using OpenFeign
-- JWT Security Implementation
+- Developed backend microservices using Spring Boot and Spring Cloud.
+- Implemented service discovery using Eureka Server.
+- Configured centralized configuration management using Config Server.
+- Enabled secure API routing through Spring Cloud Gateway.
+- Implemented inter-service communication using OpenFeign.
+- Secured APIs using Spring Security and JWT authentication.
+- Integrated MySQL with JPA/Hibernate for persistent data storage.
+- Tested and validated APIs using Postman.
 
-## Author
+## Architecture Diagram
 
-Nithin S
+![Architecture](architecture.png)
