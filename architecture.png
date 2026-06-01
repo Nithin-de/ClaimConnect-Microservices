@@ -1,0 +1,15 @@
+Config Server
+      |
+      v
+Eureka Server
+      |
+      v
+--------------------------------
+| Hospital Service             |
+| Patient Service              |
+| Insurance Company Service    |
+| Claim Request Service        |
+--------------------------------
+      |
+      v
+API Gateway
